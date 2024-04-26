@@ -1,4 +1,4 @@
-library(tidyverse)
+library(dplyr)
 # Retrieves framedata for all moves in SF6 and populates a dataframe
 
 
