@@ -1,8 +1,8 @@
 # init.R
 #
-# Example R code to install packages if not already installed
 #
-a <- (.packages())  # Loaded packages
+a <- c("ymlthis", "lubridate", "forcats", "stringr", "dplyr", "purrr", "readr", "tidyr", "tibble",
+       "ggplot2", "tidyverse", "bslib", "shiny")
 
 my_packages = a
 install_if_missing = function(p) {
