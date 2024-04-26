@@ -1,0 +1,13 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+outline.txt
+packages_used
+SF6_tech.Rproj
+.git
+rsconnect
+.devcontainer
+.devcontainer/*
+packagelist.json
+.DS_Store
