@@ -11,3 +11,4 @@ rsconnect
 .devcontainer/*
 packagelist.json
 .DS_Store
+Data/data_git/.git
