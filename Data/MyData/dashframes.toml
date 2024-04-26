@@ -1,0 +1,83 @@
+[[aki]]
+dash_f = 19
+dash_b = 23
+
+[[blanka]]
+dash_f = 19
+dash_b = 23
+
+[[cammy]]
+dash_f = 18
+dash_b = 23
+
+[[chunli]]
+dash_f = 19
+dash_b = 25
+
+[[deejay]]
+dash_f = 19
+dash_b = 23
+
+[[dhalsim]]
+dash_f = 25
+dash_b = 23
+
+[[ed]]
+dash_f = 19
+dash_b = 23
+
+[[ehonda]]
+dash_f = 19
+dash_b = 23
+
+[[guile]]
+dash_f = 21
+dash_b = 23
+
+[[jamie]]
+dash_f = 19
+dash_b = 23
+
+[[jp]]
+dash_f = 22
+dash_b = 23
+
+[[juri]]
+dash_f = 22
+dash_b = 23
+
+[[ken]]
+dash_f = 19
+dash_b = 23
+
+[[kimberly]]
+dash_f = 18
+dash_b = 23
+
+[[lily]]
+dash_f = 21
+dash_b = 24
+
+[[luke]]
+dash_f = 19
+dash_b = 23
+
+[[manon]]
+dash_f = 21
+dash_b = 25
+
+[[marisa]]
+dash_f = 22
+dash_b = 25
+
+[[rashid]]
+dash_f = 18
+dash_b = 25
+
+[[ryu]]
+dash_f = 19
+dash_b = 23
+
+[[zangief]]
+dash_f = 22
+dash_b = 25

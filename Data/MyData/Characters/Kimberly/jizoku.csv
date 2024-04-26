@@ -1,0 +1,5 @@
+﻿Jizoku,Starter,Location,Framekill,Situation_after_framekill,Active_frame_hits_on,After_block,After_hit,Can_throw
+2HP,MPxxHP 236K~MK,Corner,3MK,11,4,2,7,F
+2HP,MPxxHP 236K~MK,Anywhere,Dash Dash,11,4,2,7,F
+2HP,MPxxHP 236KK~K 236K 22HP,Corner,3MK,11,4,2,7,F
+2HP,MPxxHP 236KK~K 236K 22HP,Corner,Dash Dash,11,4,2,7,F
