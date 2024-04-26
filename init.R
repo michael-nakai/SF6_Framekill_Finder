@@ -1,10 +1,7 @@
 # init.R
 #
 #
-a <- c("ymlthis", "textshaping", "lubridate", "forcats",
-       "stringr", "dplyr", "purrr", "readr",
-       "tidyr", "tibble", "ggplot2", "tidyverse",
-       "bslib", "shiny")
+a <- c("ymlthis", "stringr", "dplyr", "bslib", "shiny")
 
 my_packages = a
 install_if_missing = function(p) {
