@@ -1,5 +1,6 @@
 library(shiny)
 library(bslib)
+library(stringr)
 
 source('Code/0_filter_moves_df.R')
 source('Code/1_find_framekill.R')
