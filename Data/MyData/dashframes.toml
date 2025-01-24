@@ -70,11 +70,19 @@ dash_b = 25
 dash_f = 22
 dash_b = 25
 
+[[mbison]]
+dash_f = 19
+dash_b = 23
+
 [[rashid]]
 dash_f = 18
 dash_b = 25
 
 [[ryu]]
+dash_f = 19
+dash_b = 23
+
+[[terry]]
 dash_f = 19
 dash_b = 23
 

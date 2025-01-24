@@ -1,5 +1,6 @@
 library(dplyr)
 # Retrieves framedata for all moves in SF6 and populates a dataframe
+# Manually rerun every update
 
 
 # Download files
@@ -9,9 +10,9 @@ git2r::clone('https://github.com/4rays/sf6-move-data',
 
 # Read in the movelists per character and assign to elements in list
 toml_list <- list()
-for (filename in dir('Data\\data_git\\moves')) {
+for (filename in dir('Data\\data_git_new\\moves')) {
     charactername <- strsplit(filename, '.', fixed = T)[[1]][1]
-    toml_list[[charactername]] <- ymlthis::read_toml(paste0('Data\\data_git\\moves\\', filename))
+    toml_list[[charactername]] <- ymlthis::read_toml(paste0('Data\\data_git_new\\moves\\', filename))
 }
 
 
@@ -182,7 +183,7 @@ moves_df <- rbind(moves_df, dash_df)
 
 
 
-saveRDS(moves_df, 'Data\\rds_files\\moves_df.rds')
+saveRDS(moves_df, 'Data\\rds_files\\moves_df_terryupdate.rds')
 
 
 

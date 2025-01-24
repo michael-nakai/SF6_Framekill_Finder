@@ -8,7 +8,7 @@ source('Code/2_format_output.R')
 source('Code/3_create_output_string.R')
 
 # Get the character dropdown list options
-moves_df <- readRDS('Data/rds_files/moves_df.rds')
+moves_df <- readRDS('Data/rds_files/moves_df_terryupdate.rds')
 characters <- unique(moves_df$character)
 characters <- characters[!(characters == 'common')]
 charlist <- list()
@@ -56,7 +56,7 @@ ui <- fluidPage(
   fluidRow(
       wellPanel(
           selectInput("character_selection", label = h3("1. Choose your character"),
-                      choices = charlist, selected = 'zangief'),
+                      choices = charlist, selected = 'ryu'),
           hr()
       )
   ),
@@ -64,7 +64,7 @@ ui <- fluidPage(
   # Choose the move to hit meaty
   fluidRow(
       wellPanel(
-          selectInput("move_to_hit_selector", label = h3("2. Select the meaty"),
+          selectInput("move_to_hit_selector", label = h3("2. Select the move that you want to hit meaty"),
                       choices = NULL, multiple = F),
           hr()
       )
