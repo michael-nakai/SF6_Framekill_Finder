@@ -29,6 +29,11 @@ for (charname in characters) {
 # Define server logic ----
 server <- function(input, output, session) {
 
+    observe({
+        invalidateLater(10000)
+        cat(".")
+    })
+
     # The character selection dropdown
     output$selectOut <- renderPrint({ input$character_selection })
 
