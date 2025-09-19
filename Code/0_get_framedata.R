@@ -5,14 +5,15 @@ library(dplyr)
 
 # Download files
 git2r::clone('https://github.com/4rays/sf6-move-data',
-             local_path = 'C:\\Users\\Michael\\Desktop\\Code\\R\\SF6_tech\\Data\\data_git_new')
+             local_path = 'C:\\Users\\Michael\\Desktop\\Code\\R\\SF6_tech\\Data\\data_git_sagatupdate')
 
+datapath <- 'Data\\data_git_sagatupdate\\moves\\'
 
 # Read in the movelists per character and assign to elements in list
 toml_list <- list()
-for (filename in dir('Data\\data_git_new\\moves')) {
+for (filename in dir(datapath)) {
     charactername <- strsplit(filename, '.', fixed = T)[[1]][1]
-    toml_list[[charactername]] <- ymlthis::read_toml(paste0('Data\\data_git_new\\moves\\', filename))
+    toml_list[[charactername]] <- ymlthis::read_toml(paste0(datapath, filename))
 }
 
 
@@ -183,7 +184,7 @@ moves_df <- rbind(moves_df, dash_df)
 
 
 
-saveRDS(moves_df, 'Data\\rds_files\\moves_df_terryupdate.rds')
+saveRDS(moves_df, 'Data\\rds_files\\moves_df_sagatupdate.rds')
 
 
 

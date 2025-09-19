@@ -2,6 +2,10 @@
 dash_f = 19
 dash_b = 23
 
+[[akuma]]
+dash_f = 19
+dash_b = 23
+
 [[blanka]]
 dash_f = 19
 dash_b = 23
@@ -28,6 +32,10 @@ dash_b = 23
 
 [[ehonda]]
 dash_f = 19
+dash_b = 23
+
+[[elena]]
+dash_f = 20
 dash_b = 23
 
 [[guile]]
@@ -60,6 +68,10 @@ dash_b = 24
 
 [[luke]]
 dash_f = 19
+dash_b = 23
+
+[[mai]]
+dash_f = 18
 dash_b = 23
 
 [[manon]]

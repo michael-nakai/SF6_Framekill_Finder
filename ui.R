@@ -8,7 +8,8 @@ source('Code/2_format_output.R')
 source('Code/3_create_output_string.R')
 
 # Get the character dropdown list options
-moves_df <- readRDS('Data/rds_files/moves_df_terryupdate.rds')
+rds_to_load <- 'Data/rds_files/moves_df_sagatupdate.rds'
+moves_df <- readRDS(rds_to_load)
 characters <- unique(moves_df$character)
 characters <- characters[!(characters == 'common')]
 charlist <- list()
@@ -17,7 +18,9 @@ for (charname in characters) {
         charlist[['A.K.I.']] <- 'aki'
     } else if (charname == 'deejay') {
         charlist[['Dee Jay']] <- 'deejay'
-    } else {
+    } else if (charname == 'mbison') {
+        charlist[['M. Bison']] <- 'mbison'
+    }else {
         newname <- paste0(toupper(substring(charname, 1, 1)), substring(charname, 2, str_length(charname)))
         charlist[[newname]] <- charname
     }

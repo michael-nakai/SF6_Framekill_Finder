@@ -12,3 +12,4 @@ rsconnect
 packagelist.json
 .DS_Store
 Data/data_git/.git
+heroku_commands.txt
